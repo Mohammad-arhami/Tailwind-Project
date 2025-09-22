@@ -22,11 +22,11 @@
 </head>
 <!-- class="h-full bg-[url('Images/licensed-image.jpg')] bg-no-repeat bg-center bg-cover" -->
 
-<body class="w-[100vw] h-[100vh] bg-white dark:bg-black overflow-x-hidden">
+<body class="w-[100vw] bg-white dark:bg-black overflow-x-hidden">
 
 
+    <!-- HEADER CONTAINER -->
     <header class="w-full h-16 bg-black flex justify-center">
-
         <div class="w-[100%] h-full flex justify-between px-12 items-center md:w-[27%] md:px-8  ">
             <h1 class="font-bold text-xl text-white  md:text-xl lg:text-2xl lg:pl-4       dark:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% dark:text-transparent dark:bg-clip-text ">Tailwind Css</h1>
             <i class="material-icons  font-bold text-2xl text-white  md:hidden         dark:bg-transparent dark:text-white">menu</i>
@@ -41,39 +41,13 @@
                 <a href="" class="w-[48%] lg:w-[40%] lg:py-1         xl:w-[31%] flex justify-center items-center  border border-2 py-0.5  rounded-2xl transition duration-500 hover:bg-white hover:text-black">Sign Up</a>
                 <a href="" class="w-[48%] lg:w-[40%] lg:py-1 lg:ml-1 xl:w-[31%] flex justify-center items-center  border border-2 py-0.5  rounded-2xl transition duration-500 hover:bg-white hover:text-black">Log In</a>        
         </div>
-
     </header>
 
 
-
-
-
-    <!-- <header class=" w-full h-16 bg-black flex justify-center ">
-        <div class="w-[50%] bg-red-600 h-full flex justify-start px-8 items-center  ">
-            <h1 class="font-bold text-xl text-white   dark:bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% dark:text-transparent dark:bg-clip-text ">
-                Tailwind Css</h1>
-        </div>
-        <div class="w-[50%] bg-green-600 h-full flex ">
-            <div class="invisible w-[350px] h-full flex items-center justify-around px-8 text-gray-100">
-                <a href="" class="transition duration-500 hover:-translate-y-1">Home</a>
-                <a href="" class="transition duration-500 hover:-translate-y-1">About</a>
-                <a href="" class="transition duration-500 hover:-translate-y-1">Contact</a>
-            </div>
-            <div class="invisible w-[200px] h-full flex items-center justify-between px-6 text-gray-100">
-                <a href=""
-                    class="border border-2 px-2 rounded-2xl transition duration-500 hover:bg-white hover:text-black">Log
-                    In</a>
-                <a href=""
-                    class="border border-2 px-2 rounded-2xl transition duration-500 hover:bg-white hover:text-black">Sign
-                    Up</a>
-            </div>
-        </div>
-    </header> -->
-
-
+    <!-- DARK MOOD CONTAINER -->
     <div class="pt-4 text-center m-auto">
         <button id="but"
-            class="border border-2 border-gray-800 p-1 rounded-full text-black dark:text-white dark:border-white dark:border-2  transition duration-500 dark:hover:bg-sky-600 ">
+            class="border border-2 border-gray-800 p-1 rounded-full text-black dark:text-white dark:border-white dark:border-2  transition duration-500 ">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                 stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -84,8 +58,70 @@
     </div>
 
 
+
+
+
+
+    <!-- CONTENT CONTAINER -->
+    <div class="w-full bg-red-700 flex justify-center items-center overflow-hidde lg:h-[500px]">
+        <div class="w-[100%] h-[100%] flex flex-col justify-between items-center md:flex-row md:justify-around md:flex-wrap bg-green-700 rounded-lg px-8 py-8 dark:bg-black ">
+
+            <div class="w-80 h-[375px] flex flex-col items-start justify-between mb-4 rounded-2xl overflow-hidden bg-stone-900         dark:bg-stone-300">
+                <img src="Images/White _House.jpg" class="w-full h-[170px] duration-500 hover:opacity-80 hover:scale-105  dark:hover:opacity-100">
+                <h1 class="text-white font-bold text-xl ml-6 dark:text-black">White House</h1>
+                <p class="text-gray-200 text-sm mx-6 text-justify dark:text-black">The White House is where the President and First Family of the United States live and work — but it's also the People's House, where we hope all Americans feel a sense of inclusion and belonging.</p>
+                <a href="" class="text-white text-md ml-6 mt-2 mb-3 border border-white py-1 px-6 rounded-md duration-500 hover:bg-white hover:text-black  dark:text-black dark:border-black dark:hover:bg-black dark:hover:text-white">Learn More</a>
+            </div>
+
+            <div class="w-80 h-[375px] flex flex-col items-start justify-between mb-4 rounded-2xl overflow-hidden bg-stone-900       dark:bg-stone-300">
+                <img src="Images/Statue_of_Liberty.jpg" class="w-full h-[170px] duration-500 hover:opacity-80 hover:scale-105  dark:hover:opacity-100">
+                <h1 class="text-white font-bold text-xl ml-6 dark:text-black">Statue of Liberty</h1>
+                <p class="text-gray-200 text-sm mx-6 text-justify dark:text-black">The Statue of Liberty stands in Upper New York Bay, a universal symbol of freedom. Originally conceived as an emblem of the friendship between the people of France and the U.S. and a sign of their.</p>
+                <a href="" class="text-white text-md ml-6 mt-2 mb-3 border border-white py-1 px-6 rounded-md duration-500 hover:bg-white hover:text-black dark:text-black dark:border-black dark:hover:bg-black dark:hover:text-white">Learn More</a>
+            </div>
+
+            <div
+                class="w-80 h-[375px] flex flex-col items-start justify-between mb-4 rounded-2xl overflow-hidden bg-stone-900 md:mt-4 dark:bg-stone-300">
+                <img src="Images/Golden_Gate_Bridge.jpg" class="w-full h-[170px] duration-500 hover:opacity-80 hover:scale-105  dark:hover:opacity-100">
+                <h1 class="text-white font-bold text-xl ml-6 dark:text-black">Golden Gate Bridge</h1>
+                <p class="text-gray-200 text-sm mx-6 text-justify dark:text-black">The structure links the U.S. city of San Francisco, California—the northern tip of the San Francisco Peninsula—to Marin County, carrying both U.S. Route 101 and California State Route 1 across strait.</p>
+                <a href="" class="text-white text-md ml-6 mt-2 mb-3 border border-white py-1 px-6 rounded-md duration-500 hover:bg-white hover:text-black  dark:text-black dark:border-black dark:hover:bg-black dark:hover:text-white">Learn More</a>
+            </div>
+
+            <div class="w-80 h-[375px] flex flex-col items-start justify-between rounded-2xl overflow-hidden bg-stone-900 dark:bg-stone-300">
+                <img src="Images/Hamilton_Pool.jpg" class="w-full h-[170px] duration-500 hover:opacity-80 hover:scale-105  dark:hover:opacity-100">
+                <h1 class="text-white font-bold text-xl ml-6 dark:text-black">Hamilton Pool</h1>
+                <p class="text-gray-200 text-sm mx-6 text-justify dark:text-black">Reservations are required to visit, and its open for hiking and sight-seeing.Hamilton Pool is a natural pool that was created when dome of an underground river collapsed erosion thousands years ago.</p>
+                <a href="" class="text-white text-md ml-6 mt-2 mb-3 border border-white py-1 px-6 rounded-md duration-500 hover:bg-white hover:text-black  dark:text-black dark:border-black dark:hover:bg-black dark:hover:text-white">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- CONTENT CONTAINER
     <div class="w-full h-[500px] flex justify-center items-center overflow-hidde">
-        <div class="w-[100%] h-[480px] rounded-lg flex justify-between items-center bg-gray-100 dark:bg-black ">
+        <div class="w-[100%] h-[98%] rounded-lg flex justify-around px-12 items-center bg-gray-100 dark:bg-black ">
 
             <div
                 class="w-72 h-[450px] flex flex-col items-start justify-between rounded-2xl overflow-hidden bg-stone-900 dark:bg-stone-300">
@@ -143,11 +179,7 @@
                     More</a>
             </div>
         </div>
-    </div>
-
-
-    <div class=" bg-green-600 sm:bg-red-300 w-full h-[450px] md:bg-red-500 lg:bg-red-800"></div>
-
+    </div> -->
 
     <script>
 
